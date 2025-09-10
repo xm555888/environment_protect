@@ -120,3 +120,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Defaults for project-specific CSS variables used by MVP theme switching */
+:root {
+  --ui-bg: #F8F9FA;
+  --ui-panel: #FFFFFF;
+  --ui-text: #212529;
+  --ui-text-secondary: #6C757D;
+  --color-sky: #87CEEB;
+  --color-water: #5F9EA0;
+  --color-plant: #2E8B57;
+  --color-accent: #007BFF;
+}
