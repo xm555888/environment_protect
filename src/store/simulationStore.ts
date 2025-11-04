@@ -160,15 +160,15 @@ export const useSimulationStore = create<SimulationState>((set, get) => ({
   actions: {
     initialize: () => {
       const engine = new SimulationEngine()
-      const initialState = {
+      const initialState: Partial<SimulationState> = {
         engine,
         biomeState: engine.state,
         history: [engine.state],
         eventLog: [],
         lastEventTick: {},
         isPaused: true,
-        speed: 'NORMAL',
-        gameStage: 'OBSERVING',
+        speed: 'NORMAL' as SpeedMode,
+        gameStage: 'OBSERVING' as GameStage,
         witness: { startTick: null, targetTicks: WITNESS_YEARS * TPY },
         uiState: {
           biomeState: engine.state,
