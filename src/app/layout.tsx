@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "My Digital Biome — MVP",
-  description: "交互式生态模拟 · 最小可行版本",
+  title: "My Digital Biome — 游戏驱动的环保教育门户",
+  description: "通过互动游戏体验生态平衡的奥秘，学习环保科学，成为环保行动者。寓教于乐 · 科学严谨 · 行动导向",
 };
 
 export default function RootLayout({
